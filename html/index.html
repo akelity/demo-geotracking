@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Geotracking Demo</title>
+
+  <style>
+    #map {
+      height: 90%;
+    }
+    #header {
+      height: 10%;
+      text-align: center;
+    }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: lightgrey;
+    }
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      height: 100%;
+      width: 30%;
+    }
+    .title {
+      float: left;
+      clear: left;
+      display: inline;
+      font-size: 1.5em;
+      max-height: 20%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  </style>
+</head>
+<body>
+<div>
+
+</div>
+  <div id="header">
+    <div class="title"> <h3>GeoTracking Demo</h3></div>
+    <button id="loginButton" class="button">Login</button>
+    <button id="logoutButton" class="button">Logout</button>
+  </div>
+  <div id="map"></div>
+  <script src="main-bundle.js"></script>
+</body>
+</html>
